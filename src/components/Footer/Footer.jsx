@@ -6,19 +6,19 @@ import {RiLinkedinFill} from 'react-icons/ri'
 import {AiFillYoutube, AiFillGithub, AiOutlineInstagram} from 'react-icons/ai'
 const socialLinks = [  
     {
-        path: "https://www.youtube.com/channel/UC7hOK-s1hlts4H0E4N43HhA",
+        path: "https://www.youtube.com/channel/UCfUxVduZNuiDh5zCoeqVJpA",
         icon:<AiFillYoutube className="group-hover:text-white w-4 h-5" />,
     }, 
     {
-        path: "https://github.com/yeshsingh",
+        path: "https://github.com/Divyendu-Vimal",
         icon: <AiFillGithub className="group-hover:text-white w-4 h-5" />,
     },
     {
-        path: "https://www.instagram.com/08._yesh/",
+        path: "https://www.instagram.com/divyendu_vimal/",
         icon:<AiOutlineInstagram className="group-hover:text-white w-4 h-5" />,
     },
     {
-        path: "https://www.linkedin.com/in/yesh-singh-214887229/",
+        path: "https://www.linkedin.com/in/divyendu-vimal-99ba9121b/",
         icon:<RiLinkedinFill className="group-hover:text-white w-4 h-5"/>,
     },
 ];
@@ -81,7 +81,7 @@ const Footer=()=>{
                             
                         }} />
                         <p className="text-[16px] leading-7 font-[400] text-textColor mt-0">
-                            Copyright ©️ {year} developed by Yesh Singh all rights reserved.
+                            Copyright ©️ {year} developed by Divyendu Vimal all rights reserved.
                         </p>
 
                         <div className="flex items-center gap-3 mt-4">
